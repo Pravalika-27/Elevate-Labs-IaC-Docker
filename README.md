@@ -34,6 +34,7 @@ Successfully provisioned and destroyed an Nginx container using Infrastructure a
 ## Interview Questions Answers
 
 1. **What is IaC?** 
+
    Infrastructure as Code is managing and provisioning infrastructure through machine-readable definition files rather than manual processes.
 
 2. **How does Terraform work?** 
