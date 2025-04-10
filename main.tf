@@ -16,7 +16,7 @@ provider "docker" {
 # Define a Docker image resource
 resource "docker_image" "nginx" {
   name         = "nginx:latest"
-  keep_locally = true # Keep the image locally after provisioning
+  keep_locally = true 
 }
 
 # Define a Docker container resource
