@@ -25,7 +25,7 @@ resource "docker_container" "nginx_container" {
   image = docker_image.nginx.name
   ports {
     internal = 80
-    external = 8080 # Map port 8080 on host to 80 in container
+    external = 80 # Map port 8080 on host to 80 in container
   }
 }
 
